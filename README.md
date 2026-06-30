@@ -121,13 +121,3 @@ All environment variables can be set in `nvidia.env`:
 | `BROWSER_PATH` | — | Override browser executable path |
 | `OLLAMA_URL` | `http://localhost:11434` | Ollama base URL (fallback) |
 
-## .gitignore Protections
-
-The following are excluded from version control:
-- `nvidia.env` and all `*.env` files (API keys)
-- `.browser-data/` (downloaded Chrome profile data)
-- `node_modules/`, `dist/`, `build/`
-- Log files (`zan-err.log`, `zan-out.log`)
-- OS files (`.DS_Store`, `Thumbs.db`)
-- Editor temp files (`*.swp`, `*.bak`)
-- `preferences.json` and `bun.lock`
