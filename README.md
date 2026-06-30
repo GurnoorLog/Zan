@@ -1,4 +1,7 @@
 # BankaiAgent
+<p align="center">
+  <img src="public/logo_bankai.jpeg" alt="Zan Logo" width="200"/>
+</p>
 
 An AI browser agent that controls Google Chrome via CDP (Chrome DevTools Protocol). It runs inside the [Zan](https://github.com/zyx0814/Zan) chat UI at `localhost:3100` — you type a task, the agent opens a new browser tab and executes it step by step.
 
