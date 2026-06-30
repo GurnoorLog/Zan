@@ -1,0 +1,44 @@
+# ── Secrets & credentials ──
+nvidia.env
+*.env
+.env.local
+.env.*.local
+
+# ── Browser data (Chrome profile, CDP temp data) ──
+.browser-data/
+browser-data/
+
+# ── Dependencies ──
+node_modules/
+jspm_packages/
+
+# ── Build output ──
+dist/
+build/
+.next/
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor temp files ──
+*.swp
+*.swo
+*~
+*.bak
+
+# ── Logs ──
+*.log
+zan-err.log
+zan-out.log
+npm-debug.log*
+
+# ── Runtime data ──
+bun.lock
+bun.lockb
+
+# ── Agent preferences (may contain personal data) ──
+preferences.json
+preferences/
+*.preferences.json
